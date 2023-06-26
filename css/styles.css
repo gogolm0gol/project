@@ -1,4 +1,4 @@
-h1,
+/*h1,
 h2,
 h3,
 h4,
@@ -43,4 +43,9 @@ body {
 
 .btn {
     
+}*/
+
+.main_screen {
+    background-image: url(images/mainscreen.png);
+    height: 740px;
 }
