@@ -16,19 +16,19 @@
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container position">
             <a href="#">
-                <img class="logo_header" src="images/logo.png" alt="logo">
+                <img src="images/logo.png" alt="logo">
             </a>
             <nav>
                 <ul class="menu">
-                    <li><a class="nav" href="#">Main</a></li>
-                    <li><a class="nav" href="#">About us</a></li>
-                    <li><a class="nav" href="#">Contacts</a></li>
+                    <li class="menu-item"><a class="link-text" href="#">Main</a></li>
+                    <li class="menu-item"><a class="link-text" href="#">About us</a></li>
+                    <li class="menu-item"><a class="link-text" href="#">Contacts</a></li>
                 </ul>
             </nav>
-            <button class="btn1">Log In</button>
-            <div class="lang_swicher">
+            <a class="link-login" href="#">Log In</a>
+            <div class="lang-swicher">
                 <span class="language">EN</span>
                 <img class="switcher" src="images/switcher.svg" alt="switcher">
                 <span class="language">UA</span>
@@ -40,7 +40,7 @@
     <main>
 
         <section class="hero">
-            <div class="container">
+            <div class="container position">
                 <div class="text">
                     <p class="text_1">
                         Oe perlltxe hu tsamsiyu!<br />
@@ -57,19 +57,20 @@
                         Fight with us!<br />
                     </p>
 
+
+                    <button class="btn2">Join clan</button>
                 </div>
-                <button class="btn2">Join clan</button>
                 <ul class="social">
-                    <li class="social_media"><a href="#">
+                    <li><a href="#">
                             <img src="images/inst.svg" alt="instagram">
                         </a>
                     </li>
-                    <li class="social_media"> <a href="#">
+                    <li> <a href="#">
                             <img src="images/twitter.svg" alt="twitter">
 
                         </a>
                     </li>
-                    <li class="social_media"> <a href="#">
+                    <li> <a href="#">
                             <img src="images/youtube.svg" alt="youtube">
 
                         </a>
@@ -90,7 +91,9 @@
         </section>
 
         <section class="screen_3">
-            <div class="container"><button class="btn3">WATCH TRAILER</button></div>
+            <div class="container position">
+                <button class="btn3">WATCH TRAILER</button>
+            </div>
 
         </section>
 
@@ -158,23 +161,24 @@
     </main>
     <footer class="footer">
 
-        <div class="container">
+        <div class="container-footer">
             <a href="#">
                 <img class="logo" src="images/logo.png" alt="logo">
             </a>
             <img class="spacer5" src="images/Line.svg" alt="line">
             <ul class="contacts">
-                <li>
+                <li class="contacts-item">
                     <p class="contacts_2">Q&A E-mail</p>
                     <img class="spacer_3" src="images/spacerfooter.svg" alt="line">
                     <a href="#" class="email">avatartwowqa@gmail.com</a>
                 </li>
-                <li>
+                <li class="contacts-item">
                     <p class="contacts_2">Cooperation E-mail</p>
                     <img class="spacer_3" src="images/spacerfooter2.svg" alt="line">
                     <a href="#" class="email">avatartwowcoop@gmail.com</a>
                 </li>
             </ul>
+            <small class="info">©2023 Avatar: The Way Of Water. All rights reserved</small>
         </div>
     </footer>
 

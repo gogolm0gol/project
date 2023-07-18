@@ -20,56 +20,58 @@ body {
     background-image: url(/images/header.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 150px;
+    /*height: 150px;*/
     border-bottom: 3px solid #FFF;
-}
-
-.logo_header {
-    display: flex;
     padding-left: 204px;
     padding-top: 39px;
+    padding-bottom: 39px;
+    padding-right: 48px;
 }
 
+.container.position {
+    display: flex;
+    align-items: center;
+
+}
 
 .menu {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    column-gap: 38px;
-    list-style: none;
-    position: relative;
-    top: 63px;
-    left: 184px;
-
+    width: 293px;
+    justify-content: space-between;
+    margin-left: 184px;
 }
 
-.nav {
+.link-text {
     text-decoration: none;
     color: #FFF;
-    text-align: center;
     font-family: 'Inter';
     font-size: 20px;
     font-weight: 300;
+
 }
 
-.nav:hover {
+.menu-item {
+    list-style: none;
+}
+
+.link-text:hover {
     color: #94CFFF;
     ;
 }
 
-.btn1 {
+.link-login {
     background-color: #0B0E66;
+    width: 141px;
+    height: 42px;
     border: #26C7EA solid 2px;
     color: #26C6EA;
+    text-decoration: none;
+    text-align: center;
     font-family: 'HeadlandOne';
     font-size: 20px;
     font-weight: 400;
-    width: 141px;
-    height: 42px;
     border-radius: 35px 0px 35px 0px;
-    /*padding-top: 54px;
-    padding-left: 228px;*/
-
+    margin-left: 228px;
 }
 
 .language {
@@ -84,13 +86,11 @@ body {
     height: 20px;
 }
 
-.lang_swicher {
+.lang-swicher {
     display: flex;
     align-items: center;
-    flex-direction: row;
     column-gap: 10px;
-    padding-top: 65px;
-    padding-left: 49px;
+    margin-left: 49px;
 }
 
 .hero {
@@ -129,8 +129,7 @@ body {
     width: 260px;
     height: 80px;
     border-radius: 35px 0px 35px 0px;
-    /*padding-top: 67px;
-    padding-left: 278px;*/
+    margin-top: 42px;
 }
 
 .social {
@@ -138,6 +137,9 @@ body {
     flex-direction: column;
     row-gap: 24px;
     list-style: none;
+    margin-top: 300px;
+    margin-bottom: auto;
+    margin-left: 622px;
 }
 
 
@@ -196,7 +198,10 @@ body {
     width: 260px;
     height: 80px;
     border-radius: 45px 0px 45px 0px;
-    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 330px;
 }
 
 
@@ -227,7 +232,7 @@ body {
     font-family: 'HeadlandOne';
     font-size: 24px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 0.24;
 }
 
 .arrow_2 {
@@ -246,6 +251,12 @@ body {
     height: 223px;
 }
 
+.container-footer {
+    display: flex;
+    align-items: center;
+
+}
+
 .logo {
     display: flex;
     padding-left: 204px;
@@ -255,21 +266,23 @@ body {
 }
 
 .spacer5 {
-    width: 2px;
-    height: 153px;
-    padding-top: 35px;
-    padding-left: 80px;
+    margin-left: 80px;
+    margin-top: 35px;
 }
 
 .contacts {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-direction: row;
-    column-gap: 20px;
     row-gap: 16px;
     list-style: none;
-    position: relative;
+    margin-left: 80px;
+}
 
+.contacts-item {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
 }
 
 .contacts_2 {
@@ -284,4 +297,14 @@ body {
     font-weight: 400;
     text-decoration: none;
 
+}
+
+.info {
+    display: inline;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 37px;
 }
