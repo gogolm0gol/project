@@ -17,16 +17,17 @@ body {
 
 
 .header {
-    background-image: url(/images/header.png);
+    display: flex;
+    background-image: url(/images/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /*height: 150px;*/
     border-bottom: 3px solid #FFF;
-    /*padding-left: 204px;*/
+    padding-left: 204px;
     padding-top: 39px;
     padding-bottom: 39px;
-    /*padding-right: 48px;*/
+    padding-right: 48px;
 }
+
 .container {
     width: 1032px;
     margin-left: auto;
@@ -34,10 +35,21 @@ body {
     padding-left: 12px;
     padding-right: 12px;
 }
+
 .container.position {
     display: flex;
     align-items: center;
 
+}
+
+.container.hero-position {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container0 {
+    width: 1032px;
+    margin: 0 auto;
 }
 
 .menu {
@@ -100,7 +112,7 @@ body {
 }
 
 .hero {
-    background-image: url(/images/mainscreen.png);
+    background-image: url(/images/mainscreen.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 740px;
@@ -121,8 +133,8 @@ body {
     display: flex;
     flex-direction: column;
     column-gap: 0;
-   padding-top: 180px;
-    
+    padding-top: 180px;
+
 }
 
 .joinclan {
@@ -190,10 +202,11 @@ body {
 }
 
 .screen3 {
-    background-image: url(/images/screen2.png);
+    background-image: url(/images/screen3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 741px;
+    height: 740px;
+    margin-top: 40px;
 }
 
 .btn3 {
@@ -214,11 +227,10 @@ body {
 
 
 .screen5 {
-    background-image: url(/images/screen5.png);
+    background-image: url(/images/screen5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 704px;
-    /*opacity: 0.66;*/
+    padding: 57px 204px;
 }
 
 .title5 {
@@ -226,9 +238,7 @@ body {
     font-family: 'HeadlandOne';
     font-size: 32px;
     font-weight: 400;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 58px;
+    text-align: center;
 
 }
 
@@ -238,25 +248,17 @@ body {
     row-gap: 24px;
     column-gap: 36px;
     margin-top: 45px;
-    justify-content: center;
-    width: 1033px;
-    height: 504px;
     list-style: none;
-    
+
 }
 
 .container1 {
-    border: red solid 2px;
+
     width: 320px;
     height: 240px;
     background-color: #ffffffb9;
-    /*display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    row-gap: 24px;
-    column-gap: 36px;
-    margin-top: 45px;*/
-    
+
+
 }
 
 .text-5 {
@@ -288,7 +290,7 @@ body {
 }
 
 .footer {
-    background-image: url(/images/header.png);
+    background-image: url(/images/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 223px;
