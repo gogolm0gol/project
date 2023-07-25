@@ -70,7 +70,7 @@ body {
 .link-login {
     background-color: #0B0E66;
     width: 141px;
-    height: 42px;
+    padding: 9px 37px 9px 37px;
     border: #26C7EA solid 2px;
     color: #26C6EA;
     text-decoration: none;
@@ -136,12 +136,11 @@ body {
     font-family: 'HeadlandOne';
     font-size: 24px;
     width: 260px;
-    height: 80px;
-    border-radius: 35px 0px 35px 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 45px 0px 45px 0px;
     margin-top: 42px;
     text-align: center;
-    align-items: center;
-
 }
 
 .social {
@@ -281,23 +280,14 @@ body {
     height: 223px;
 }
 
-.container-footer {
-    display: flex;
-    align-items: center;
-
-}
-
-.logo {
-    display: flex;
-    padding-left: 204px;
-    padding-top: 77px;
-    width: 183px;
-    height: 70px;
-}
 
 .spacer-footer {
     margin-left: 80px;
     margin-top: 35px;
+}
+
+.contacts-container {
+    margin-left: 80px;
 }
 
 .contacts {
@@ -306,7 +296,8 @@ body {
     justify-content: center;
     row-gap: 16px;
     list-style: none;
-    margin-left: 80px;
+    margin-top: 45px;
+    margin-bottom: 37px;
 }
 
 .contacts-item {
@@ -325,5 +316,5 @@ body {
 .info {
     text-align: center;
     color: #FFF;
-    margin-top: 37px;
+    margin-left: 211px;
 }
