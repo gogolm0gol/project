@@ -13,12 +13,12 @@ ul {
 body {
 
     font-family: 'Inter';
+    font-weight: 400;
 }
-
 
 .header {
     display: flex;
-    background-image: url(/images/header.jpg);
+    background-image: url(../images/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 3px solid #FFF;
@@ -40,16 +40,6 @@ body {
     display: flex;
     align-items: center;
 
-}
-
-.container.hero-position {
-    display: flex;
-    justify-content: space-between;
-}
-
-.container0 {
-    width: 1032px;
-    margin: 0 auto;
 }
 
 .menu {
@@ -87,16 +77,14 @@ body {
     text-align: center;
     font-family: 'HeadlandOne';
     font-size: 20px;
-    font-weight: 400;
     border-radius: 35px 0px 35px 0px;
     margin-left: 228px;
 }
 
-.language {
+.lang {
     color: #FFF;
     font-family: 'HeadlandOne';
     font-size: 16px;
-    font-weight: 400;
 }
 
 .switcher {
@@ -111,17 +99,22 @@ body {
     margin-left: 49px;
 }
 
+.container.hero-position {
+    display: flex;
+    justify-content: space-between;
+}
+
 .hero {
-    background-image: url(/images/mainscreen.jpg);
+    background-image: url(../images/mainscreen.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 740px;
 }
 
-.text-1 {
+.txt-1 {
     color: #FFF;
     font-size: 20px;
-    font-weight: 400;
+
 }
 
 .arrow {
@@ -132,7 +125,6 @@ body {
 .text {
     display: flex;
     flex-direction: column;
-    column-gap: 0;
     padding-top: 180px;
 
 }
@@ -143,12 +135,12 @@ body {
     color: #26C6EA;
     font-family: 'HeadlandOne';
     font-size: 24px;
-    font-weight: 400;
     width: 260px;
     height: 80px;
     border-radius: 35px 0px 35px 0px;
     margin-top: 42px;
     text-align: center;
+    align-items: center;
 
 }
 
@@ -162,8 +154,6 @@ body {
     margin-left: 622px;
 }
 
-
-
 .screen {
     background-color: #FFF;
     height: 350px;
@@ -172,10 +162,10 @@ body {
 .title {
     color: #141414;
     font-size: 36px;
-    font-weight: 400;
     text-transform: uppercase;
     text-align: center;
     padding-top: 75px;
+    font-weight: 400;
 }
 
 .title:hover {
@@ -187,7 +177,6 @@ body {
     color: #000;
     text-align: center;
     font-size: 24px;
-    font-weight: 400;
     padding-top: 16px;
 }
 
@@ -202,7 +191,7 @@ body {
 }
 
 .screen3 {
-    background-image: url(/images/screen3.jpg);
+    background-image: url(../images/screen3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 740px;
@@ -215,7 +204,6 @@ body {
     color: #26C6EA;
     font-family: 'HeadlandOne';
     font-size: 24px;
-    font-weight: 400;
     width: 260px;
     height: 80px;
     border-radius: 45px 0px 45px 0px;
@@ -223,11 +211,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 330px;
+
 }
 
-
 .screen5 {
-    background-image: url(/images/screen5.jpg);
+    background-image: url(../images/screen5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 57px 204px;
@@ -237,12 +225,11 @@ body {
     color: #141414;
     font-family: 'HeadlandOne';
     font-size: 32px;
-    font-weight: 400;
     text-align: center;
 
 }
 
-.card {
+.container-card {
     display: flex;
     flex-wrap: wrap;
     row-gap: 24px;
@@ -250,9 +237,10 @@ body {
     margin-top: 45px;
     list-style: none;
 
+
 }
 
-.container1 {
+.card {
 
     width: 320px;
     height: 240px;
@@ -261,19 +249,16 @@ body {
 
 }
 
-.text-5 {
+.text-card {
     color: #141414;
     text-align: center;
     font-family: 'HeadlandOne';
     font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
     margin-left: auto;
     margin-right: auto;
 }
 
-
-.arrow_2 {
+.arrow-card {
     width: 152px;
     height: 40px;
     display: flex;
@@ -290,7 +275,7 @@ body {
 }
 
 .footer {
-    background-image: url(/images/header.jpg);
+    background-image: url(../images/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 223px;
@@ -310,7 +295,7 @@ body {
     height: 70px;
 }
 
-.spacer5 {
+.spacer-footer {
     margin-left: 80px;
     margin-top: 35px;
 }
@@ -330,26 +315,15 @@ body {
     align-items: center;
 }
 
-.contacts_2 {
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 400;
-}
-
 .email {
     color: #FFF;
     font-size: 20px;
-    font-weight: 400;
     text-decoration: none;
 
 }
 
 .info {
-    display: inline;
+    text-align: center;
     color: #FFF;
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
     margin-top: 37px;
 }
